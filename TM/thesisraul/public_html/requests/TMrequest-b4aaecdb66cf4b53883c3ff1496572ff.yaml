@@ -11,7 +11,7 @@ teacher_role: ldteacher
 operation_mode:
   create:
     undefined: "true"
-machine_size: small
+machine_size: large
 lesson_type: physics
 lesson_topic: QuantumMechanics
 home_directories: mche
