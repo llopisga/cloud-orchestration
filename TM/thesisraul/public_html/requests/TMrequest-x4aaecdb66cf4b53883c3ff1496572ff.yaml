@@ -1,0 +1,29 @@
+---
+requestor_id: raul.llopis
+timestamp_start: 01-05-2020 22:49:01
+firstname: Raul
+surname: Llopis
+request_UUID: x4aaecdb66cf4b53883c3ff1496572ff
+requestor_email: raullg8@gmail.com
+home_institute: EPSA
+home_department: DCOM
+teacher_role: ldteacher
+operation_mode:
+  create:
+    undefined: "true"
+machine_size: medium
+lesson_type: it
+lesson_topic: OperatingSystems
+home_directories: mche
+users:
+  user1: Lucia
+  user2: Anna
+  user3: Sebastian
+  user4: John
+user_cooperation_mode:
+  isolated:
+additional_services:
+  - web: "true"
+persisted_items:
+  what:
+  - user_data
