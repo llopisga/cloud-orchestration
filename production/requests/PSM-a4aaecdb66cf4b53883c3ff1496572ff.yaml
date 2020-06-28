@@ -1,0 +1,72 @@
+additional_services:
+- web: 'true'
+firewall_rules:
+  allow:
+    destination: server
+    frametype: IP
+    logging: true
+    ports:
+      max: 31000
+      min: 30001
+    protocol: TCP
+    source: any
+  deny:
+    mode: disabled
+firstname: Raul
+home_department: DCOM
+home_directories: mche
+home_institute: EPSA
+lesson_topic: OperatingSystems
+lesson_type: it
+machine_size: small
+network_config:
+  protocol: dhcp
+operation_mode:
+  delete:
+    undefined:
+      duration: 19
+      start_date: 28-06-2020
+persisted_items:
+  url: sftp.mche.edu.pl
+privileges:
+  admin: admin
+  data_directory: 700
+  users: null
+request_UUID: a4aaecdb66cf4b53883c3ff1496572ff
+requestor_email: raullg8@gmail.com
+requestor_id: raul.llopis
+server:
+  node01:
+    network:
+      dns_master: 172.26.64.3
+      dns_node: 172.26.64.4
+      domain: mche.edu.pl
+      fqdn: node01.mche.edu.pl
+      ip: 172.26.91.20
+      mask: 24
+      network_gateway: 172.26.91.254
+    specs:
+      arch: intel
+      os: centos
+      ram: 64266
+      storage: 13312
+      vcpu: 8
+      vt: true
+service:
+  antidote:
+    lessons_url: https://github.com/llopisga/nrelabs-curriculum.git
+    vagrant:
+      cores: 2
+      memory: 8192
+      provider: virtualbox
+surname: Llopis
+teacher_role: ldteacher
+timestamp_completed: 28-06-2020 11:22:25
+timestamp_start: 01-05-2020 22:49:01
+user_cooperation_mode:
+  isolated: null
+users:
+  user1: Lucia
+  user2: Anna
+  user3: Sebastian
+  user4: John

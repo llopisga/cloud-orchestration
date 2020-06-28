@@ -1,0 +1,12 @@
+---
+config:
+  protocol:
+    dynamic:
+       protocol: dhcp
+    static: 
+      domain: mche.edu.pl
+      network: 172.26.91.0
+      ipaddr: 172.26.91.X
+      subnet: 24
+      dns: x.y.z.a
+      gateway: 172.26.91.Y

@@ -1,0 +1,14 @@
+---
+rules:
+  action:
+    allow:
+      protocol: TCP
+      source: any
+      destination: server 
+      frametype: IP
+      logging: on
+      ports:
+        min: 30001
+        max: 31000
+    deny:
+      mode: disabled

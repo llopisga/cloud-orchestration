@@ -1,0 +1,37 @@
+---
+jupyter:
+  machine_size:
+    small:
+      docker:
+        memory: 8192
+        cores: 2
+    medium:
+      docker:
+        memory: 16384
+        cores: 4
+    large:
+      docker:
+        memory: 32768
+        cores: 8
+  lesson_type:
+    it:
+      Programming: https://github.com/ehmatthes/intro_programming.git 
+      NeuralNetworks: https://github.com/masinoa/machine_learning.git
+    biology:
+      PopulationGenetics: https://github.com/cgoliver/RNA-Popgen-Notebook.git
+      Cellbiology: https://github.com/jonasnick/ReceptiveFields.git
+      AppliedBioinformatics: https://github.com/applied-bioinformatics/built-iab.git
+      Biomechanics: https://github.com/demotu/BMC.git
+      Reactions: https://gist.github.com/greglandrum/4316430
+    maths:
+      GraphsTheory: https://github.com/dimgold/pycon_social_networkx.git
+      LinearAlgebra: https://github.com/carljv/cython_testing.git
+      MathematicsIntroduction: https://github.com/drvinceknight/Python-Mathematics-Handbook.git
+      Calculus: https://github.com/kanr/pycalc.git
+      ComplexNumbers: https://github.com/cfangmeier/Small/blob/9037dbd6d7e5843a60d7a92c6e4a713b3b685a74/Imagination.ipynb
+    physics:
+      QuantumMechanics: https://github.com/jrjohansson/qutip-lectures.git
+      AstrophysicalSimulations: https://github.com/yt-project/yt/tree/master/doc/source
+      FluidDynamics: https://github.com/barbagroup/CFDPython.git
+      AppliedThermodynamics: https://github.com/iurisegtovich/PyTherm-applied-thermodynamics.git
+      AerodynamicsHydrodynamics: https://github.com/barbagroup/AeroPython.git

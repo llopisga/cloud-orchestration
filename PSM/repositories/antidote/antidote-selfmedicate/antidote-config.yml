@@ -1,0 +1,17 @@
+---
+
+# Antidote Version
+version: "0.6.0"
+
+# Customizable configuration options are provided here for the vagrant up command.
+# This is used in conjuction with the vagrantfile.  Any changes in this file require
+# vagrant reload --provision
+#
+vm_config:
+  vmname: ANTIDOTE_VMNAME
+  memory: ANTIDOTE_MEMORY
+  cores: ANTIDOTE_CPUS
+  provider: ANTIDOTE_PROVIDER
+  port: ANTIDOTE_PORT
+  porttmp: ANTIDOTE_TMP
+  ssh: ANTIDOTE_SSH

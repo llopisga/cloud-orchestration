@@ -1,0 +1,8 @@
+---
+psm:
+  antidote:
+    size: [small, medium]
+    type: [it]
+  jupyter:
+    size: [medium, large]
+    type: [it, biology, maths, physics]

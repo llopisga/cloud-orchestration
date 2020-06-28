@@ -1,0 +1,6 @@
+PROJECT_PATH: "/home/USERNAME/cloud-orchestration"
+#TM_PATH: "/var/www/thesisraul/public_html/requests"
+TM_PATH: "/home/raul/cloud-orchestration/TM/thesisraul/public_html/requests"
+SMTP_SERVER: "smtp.gmail.com"
+SMTP_PORT: 587
+NOTIFY_ADMIN: "raullg8@gmail.com"

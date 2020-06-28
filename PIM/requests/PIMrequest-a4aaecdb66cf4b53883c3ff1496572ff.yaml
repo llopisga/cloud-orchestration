@@ -1,0 +1,55 @@
+additional_services:
+- web: 'true'
+firstname: Raul
+home_department: DCOM
+home_directories: mche
+home_institute: EPSA
+lesson_topic: OperatingSystems
+lesson_type: it
+machine_size: small
+operation_mode:
+  create:
+    undefined: 'true'
+persisted_items:
+  what:
+  - user_data
+request_UUID: a4aaecdb66cf4b53883c3ff1496572ff
+requestor_email: raullg8@gmail.com
+requestor_id: raul.llopis
+surname: Llopis
+teacher_role: ldteacher
+timestamp_start: 01-05-2020 22:49:01
+user_cooperation_mode:
+  isolated: null
+users:
+  user1: Lucia
+  user2: Anna
+  user3: Sebastian
+  user4: John
+firewall_rules:
+  allow:
+    destination: server
+    frametype: IP
+    logging: true
+    ports:
+      max: 31000
+      min: 30001
+    protocol: TCP
+    source: any
+  deny:
+    mode: disabled
+network_config:
+  protocol: dhcp
+persisted_items:
+  url: sftp.mche.edu.pl
+privileges:
+  admin: admin
+  data_directory: 700
+  users: null
+system:
+  arch: amd
+  os: debian
+  ram: 8192
+  storage: 64
+  vcpu: 2
+  vt: true

@@ -1,0 +1,21 @@
+---
+min-time-before-start: 1
+maximums:
+  teacher:
+    small: {users: 15, groups: 5, availability: 7}
+    medium: {users: 25, groups: 8, availability: 3}
+    large: {users: 35, groups: 11, availability: 1}
+  ldteacher:
+    small: {users: 15, groups: 5, availability: 105}
+    medium: {users: 25, groups: 8, availability: 28}
+    large: {users: 35, groups: 11, availability: 7}
+minimums:
+  teacher:
+    small: {users: 4, groups: 2, availability: 1}
+    medium: {users: 8, groups: 4, availability: 1}
+    large: {users: 12, groups: 8, availability: 3}
+  ldteacher:
+    small: {users: 4, groups: 2, availability: 14}
+    medium: {users: 2, groups: 4, availability: 3}
+    large: {users: 2, groups: 8, availability: 1}
+    

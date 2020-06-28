@@ -1,0 +1,90 @@
+---
+system:
+  it:
+    small:
+      vcpu: 2
+      ram: 8192
+      os: debian
+      arch: amd
+      storage: 64
+      vt: on
+    medium:
+      vcpu: 4 
+      ram: 16384
+      os: centos
+      arch: amd
+      storage: 256
+      vt: on
+    large:
+      vcpu: 8
+      ram: 32768
+      os: centos
+      arch: amd
+      storage: 512
+      vt: on
+  biology:
+    small:
+      vcpu: 2
+      ram: 8192
+      os: debian
+      arch: amd
+      storage: 128
+      vt: on
+    medium:
+      vcpu: 4 
+      ram: 16384
+      os: centos
+      arch: amd
+      storage: 256
+      vt: on
+    large:
+      vcpu: 8
+      ram: 32768
+      os: centos
+      arch: amd
+      storage: 512
+      vt: on
+  maths:
+    small:
+      vcpu: 2
+      ram: 8192
+      os: debian
+      arch: amd
+      storage: 128
+      vt: on
+    medium:
+      vcpu: 4 
+      ram: 16384
+      os: centos
+      arch: amd
+      storage: 256
+      vt: on
+    large:
+      vcpu: 8
+      ram: 32768
+      os: centos
+      arch: amd
+      storage: 512
+      vt: on
+  physics:
+    small:
+      vcpu: 2
+      ram: 8192
+      os: debian
+      arch: amd
+      storage: 128
+      vt: on
+    medium:
+      vcpu: 4 
+      ram: 16384
+      os: centos
+      arch: amd
+      storage: 256
+      vt: on
+    large:
+      vcpu: 8
+      ram: 32768
+      os: centos
+      arch: amd
+      storage: 512
+      vt: on

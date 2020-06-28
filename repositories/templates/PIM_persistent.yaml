@@ -1,0 +1,5 @@
+---
+persist:
+  where:
+    mche: sftp.mche.edu.pl
+    home: home.edu.pl

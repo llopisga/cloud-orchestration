@@ -1,0 +1,7 @@
+preempt:
+  arrival_time: 28-06-2020 11:22:25
+  destination: node01
+  priority: 1
+  start_date: 28-06-2020
+  state: ready
+  uuid: a4aaecdb66cf4b53883c3ff1496572ff

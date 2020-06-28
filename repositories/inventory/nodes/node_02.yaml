@@ -1,0 +1,17 @@
+---
+node02:
+  network:
+    fqdn: node02.mche.edu.pl
+    domain: mche.edu.pl
+    ip: 172.26.91.21
+    mask: 24
+    dns_master: 172.26.64.3
+    dns_node: 172.26.64.4
+    network_gateway: 172.26.91.254 
+  specs:
+    vcpu: 8
+    arch: intel
+    ram: 64266
+    storage: 13312
+    os: centos
+    vt: on

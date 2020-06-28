@@ -1,0 +1,24 @@
+---
+antidote:
+  machine_size:
+    small:
+      vagrant:
+        memory: 8192
+        cores: 2
+        provider: virtualbox
+    medium:
+      vagrant:
+        memory: 16384
+        cores: 4
+        provider: virtualbox
+    large:
+      vagrant:
+        memory: 32768
+        cores: 8
+        provider: virtualbox
+  lesson_type:
+    it:
+      Networking: https://github.com/llopisga/nrelabs-curriculum.git
+      Programming: https://github.com/llopisga/nrelabs-curriculum.git
+      OperatingSystems: https://github.com/llopisga/nrelabs-curriculum.git
+      NeuralNetworks: https://github.com/llopisga/nrelabs-curriculum.git

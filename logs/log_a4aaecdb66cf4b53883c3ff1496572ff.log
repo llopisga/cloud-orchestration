@@ -1,0 +1,12 @@
+2020-06-28 11:23:31,811 - pim - Model Orchestrator has started
+2020-06-28 11:23:31,811 - pim - Opening TM Model
+2020-06-28 11:23:31,815 - pim - Opening Conversion policies
+2020-06-28 11:23:31,832 - pim - Generating PIM Model
+2020-06-28 11:23:31,837 - feasibles - Opening PIM Model
+2020-06-28 11:23:31,843 - feasibles - Opening PSM Inventories
+2020-06-28 11:23:31,852 - feasibles - Opening Nodes Inventories
+2020-06-28 11:23:31,863 - psm - Opening PSM Feasibles
+2020-06-28 11:23:31,874 - psm - Opening Policies
+2020-06-28 11:23:31,882 - psm - Applying Screening policy
+2020-06-28 11:23:31,882 - psm - Applying Selection policy
+2020-06-28 11:23:36,037 - psm - Validating data

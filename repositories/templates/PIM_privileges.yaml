@@ -1,0 +1,31 @@
+---
+privileges:
+  isolated:
+    teacher:
+      admin: 'teacher'
+      users: 'isolated'
+      data_directory: 600
+    ldteacher:
+      admin: 'wheel'
+      users: 'isolated'
+      data_directory: 600
+  groups:
+    teacher:
+      admin: 'teacher'
+      users: 'groups'
+      groups:
+        data_directory: 650
+    ldteacher:
+      admin: 'wheel'
+      users: 'groups'
+      groups:
+        data_directory: 650
+  common:
+    teacher:
+      admin: 'teacher'
+      users: 'common'
+      data_directory: 660
+    ldteacher:
+      admin: 'wheel'
+      users: 'common'
+      data_directory: 660
